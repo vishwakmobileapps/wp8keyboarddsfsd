@@ -1,0 +1,348 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TamilKeyboard.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+   
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Black">
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- LOCALIZATION NOTE:
+            To localize the displayed strings copy their values to appropriately named
+            keys in the app's neutral language resource file (AppResources.resx) then
+            replace the hard-coded text value between the attributes' quotation marks
+            with the binding clause whose path points to that string name.
+
+            For example:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+            This binding points to the template's string resource named "ApplicationTitle".
+
+            Adding supported languages in the Project Properties tab will create a
+            new resx file per language that can carry the translated values of your
+            UI strings. The binding in these examples will cause the value of the
+            attributes to be drawn from the .resx file that matches the
+            CurrentUICulture of the app at run time.
+         -->
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="தமிழ் விசைப்பலகை"  FontSize="25" Foreground="White" Style="{StaticResource PhoneTextNormalStyle}" FontFamily="Vijaya"/>
+            <!--<TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>-->
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="250"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="txtvalue" TextWrapping="Wrap" Background="White"  AcceptsReturn="True" Grid.Row="0"/>
+            <Grid Grid.Row="1" Margin="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1" Margin="0,10,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="42"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="43"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="43"/>
+                        <ColumnDefinition Width="43"/>
+                        <ColumnDefinition Width="43"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0"  BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock  Foreground="White" x:Name="btn01" Text="  ஃ " Tap="btn01_Tap_1" Margin="-2,5" />
+                    </Border>
+                    <Border Grid.Column="1" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn02" Text="அ" Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="2" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn03" Text="ஆ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="3" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn04" Text=" இ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="4" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn05" Text=" ஈ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="5" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn06" Text=" உ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="6" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn07" Text=" ஊ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="7" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn08" Text=" எ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="8" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White"  x:Name="btn09" Text=" ஏ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="9" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn10" Text=" ஐ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="10" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn112" Text=" ஒ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+
+
+                    <!--<Button x:Name="btn01" FontSize="15" Grid.Column="0" Content="ஃ" Click="btn01_Click_1" />
+                    <Button x:Name="btn02" FontSize="15" Content="அ" Click="btn02_Click_1" Grid.ColumnSpan="2" Margin="50,0,10,0" />
+                    <Button x:Name="btn03" FontSize="15" Grid.Column="1" Content="ச" Click="btn03_Click_1" Grid.ColumnSpan="2" Margin="55,0,5,0" />
+                    <Button x:Name="btn04" FontSize="15" Grid.Column="2" Content="&#3015;" Click="btn04_Click_1" Grid.ColumnSpan="2" Margin="55,0,5,0" />-->
+                </Grid>
+
+                <Grid Grid.Row="2" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="34"/>
+                        <ColumnDefinition Width="44"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="41"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="42"/>
+                        <ColumnDefinition Width="44"/>
+                        <ColumnDefinition Width="41"/>
+                        <ColumnDefinition Width="47"/>
+                        <ColumnDefinition Width="45"/>
+                        <ColumnDefinition Width="42"/>
+                        <!--<ColumnDefinition Width="43"/>-->
+                        <ColumnDefinition Width="9"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Margin="0,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White"  x:Name="btn11" Text=" ஓ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="1" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn12" FontSize="15" Text="ஔ" Tap="btn01_Tap_1" Margin="0,6,0,0" />
+                    </Border>
+                    <Border Grid.Column="2" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn13" Text=" க" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="3" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn14" Text=" ங " Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="4" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn15" Text=" ச" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="5" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn16" Text=" ஜ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="6" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn17" Text=" ஞ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="7" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn18" Text=" ட" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="8" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn19" Text="ண " Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="9" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn20" Text="  த" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <!--<Border Grid.Column="10" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+
+                    </Border>-->
+                    <Border Grid.Column="10" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn21" Text=" ந" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Row="3" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="32"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="39"/>
+                        <ColumnDefinition Width="41"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="34"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn22" Text="ன" Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="1" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn23" Text=" ப" Tap="btn01_Tap_1" Margin="0,4,0,0"  />
+                    </Border>
+                    <Border Grid.Column="2" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn24" Text=" ம" Tap="btn01_Tap_1"  Margin="0,4,0,0" />
+                    </Border>
+                    <Border Grid.Column="3" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn25" Text=" ய" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="4" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn26" Text=" ர " Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="5" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn27" Text=" ற " Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="6" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn28" Text=" ல " Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="7" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn29" Text=" ள " Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="8" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn30" Text=" ழ " Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="9" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn31" Text=" வ" Tap="btn01_Tap_1"  Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="10" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn32" Text="ஷ"  Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="11" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" Grid.Column="10" x:Name="btn33" FontSize="19" Text="ஸ" Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Row="4" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="45"/>
+                        <ColumnDefinition Width="46"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="56"/>
+                        <ColumnDefinition Width="57"/>
+                        <ColumnDefinition Width="33"/>
+                        <!--<ColumnDefinition Width="38"/>
+                        <ColumnDefinition Width="43"/>
+                        <ColumnDefinition Width="48"/>-->
+
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn34" Text="  ஹ" FontSize="15" Tap="btn01_Tap_1" Margin="0,6,0,0"/>
+                    </Border>
+                    <Border Grid.Column="1" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn35" Text=" &#3006;" Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="2" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn36" Text="  &#3007; " Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="3" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn37" Text="   &#3008; " Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="4" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn38" Text="  &#3009; " Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="5" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn39" Text=" &#3010; " Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border  Grid.Column="6" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn40" Text=" &#3014; " Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="7" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn41" Text=" &#3015; " Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="8" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn42" Text=" &#3016; " Tap="btn01_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <!--<TextBlock Grid.Column="9" x:Name="btn45" Text=" &#3019;  "/>
+                    <TextBlock Grid.Column="10" x:Name="btn46" Text=" &#3020; "/>
+                    <TextBlock Grid.Column="11" x:Name="btn47" Text=" &#3021; "/>-->
+                </Grid>
+
+                <Grid Grid.Row="5" Margin="0,5,10,0">
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="62"/>
+                        <ColumnDefinition Width="52"/>
+                        <ColumnDefinition Width="53"/>
+                        <ColumnDefinition Width="58"/>
+                        <ColumnDefinition Width="49"/>
+                        <ColumnDefinition Width="115"/>
+                        <ColumnDefinition Width="60"/>
+
+
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" BorderBrush="#474747" BorderThickness="3" Background="#474747" Margin="10,0,0,0">
+                        <TextBlock Foreground="White" x:Name="btn50" Text=" ENG" Tap="btneng_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="1" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn44" Text=" &#3018;" Tap="btn01_Tap_1" FontSize="16" Margin="0,6,0,0"/>
+                    </Border>
+                    <Border Grid.Column="2" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn45" Text=" &#3019;  " FontSize="16" Tap="btn01_Tap_1" Margin="0,6,0,0"/>
+                    </Border>
+                    <Border Grid.Column="3" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn46" Text=" &#3020; " FontSize="16" Tap="btn01_Tap_1" Margin="0,6,0,0"/>
+                    </Border>
+                    <Border Grid.Column="4" Margin="5,0,0,0" BorderBrush="#474747" BorderThickness="2" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn47" Text="  &#3021; " FontSize="25" Tap="btn01_Tap_1" Margin="0,6,0,0"/>
+                    </Border>
+
+                    <Border Grid.Column="5" BorderBrush="#474747" BorderThickness="3" Margin="5,0,0,0" Background="#474747">
+                        <TextBlock Foreground="White" x:Name="btn49" Text="    space" FontWeight="Normal" Tap="btn49_Tap_1" Margin="0,4,0,0"/>
+                    </Border>
+                    <Border Grid.Column="6" BorderBrush="#474747" BorderThickness="3" Margin="5,0,0,0" Tap="btn48_Tap_1" Background="#474747">
+                        <!--<TextBlock  x:Name="btn48" Text="Backspace" Tap="btn48_Tap_1" Margin="0,4,0,0" />-->
+                        <Image x:Name="btn48" Height="32" Source="Assets/backspace.png" Margin="0,9,8,8"/>
+                    </Border>
+                </Grid>
+                <Grid Grid.Row="0" Margin="0,5,0,0">
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="130"/>
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <Border Grid.Column="0" Height="45" Width="45" Margin="0,0,10,0">
+                        <!--<TextBlock  x:Name="btn51" Text="    Copy" Tap="btncopy_Tap_1" Margin="0,4,0,0"/>-->
+                        <Image x:Name="btn51" Source="Assets/copy.png" Tap="btncopy_Tap_1"/>
+                    </Border>
+                    <!--<Border Grid.Column="2" BorderBrush="#474747" BorderThickness="3" Margin="5,0,0,0" Background="#474747">
+                        <TextBlock  x:Name="btn52" Text="       Paste" Tap="btnpaste_Tap_1" Margin="7" />
+                    </Border>-->
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <!--Uncomment to see an alignment grid to help ensure your controls are
+            aligned on common boundaries.  The image has a top margin of -32px to
+            account for the System Tray. Set this to 0 (or remove the margin altogether)
+            if the System Tray is hidden.
+
+            Before shipping remove this XAML and the image itself.-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+    </Grid>
+
+</phone:PhoneApplicationPage>

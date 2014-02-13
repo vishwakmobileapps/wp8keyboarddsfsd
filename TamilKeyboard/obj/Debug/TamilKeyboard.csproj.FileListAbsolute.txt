@@ -1,0 +1,58 @@
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\TamilKeyboard.dll
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\TamilKeyboard.pdb
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\AppManifest.xaml
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\TamilKeyboard_Debug_AnyCPU.xap
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\App.g.cs
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\MainPage.g.cs
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.g.resources
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.resources
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.csproj.GenerateResource.Cache
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.dll
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.pdb
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\XapCacheFile.xml
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\ta-IN\TamilKeyboard.resources.dll
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\ta-LK\TamilKeyboard.resources.dll
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\Bin\Debug\ta\TamilKeyboard.resources.dll
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.ta-IN.resources
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.ta-LK.resources
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.ta.resources
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\ta-IN\TamilKeyboard.resources.dll
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\ta-LK\TamilKeyboard.resources.dll
+c:\users\sakthijananit\documents\visual studio 2012\Projects\TamilKeyboard\TamilKeyboard\obj\Debug\ta\TamilKeyboard.resources.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\TamilKeyboard.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\TamilKeyboard.pdb
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\ta-IN\TamilKeyboard.resources.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\ta-LK\TamilKeyboard.resources.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\ta\TamilKeyboard.resources.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\AppManifest.xaml
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\TamilKeyboard_Debug_AnyCPU.xap
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\App.g.cs
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\MainPage.g.cs
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.g.resources
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.resources
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.ta-IN.resources
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.ta-LK.resources
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.Resources.AppResources.ta.resources
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.csproj.GenerateResource.Cache
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\ta-IN\TamilKeyboard.resources.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\ta-LK\TamilKeyboard.resources.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\ta\TamilKeyboard.resources.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.pdb
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\XapCacheFile.xml
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\JeffWilcox.PhoneThemeManager.dll
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\Bin\Debug\JeffWilcox.PhoneThemeManager.pdb
+C:\Users\silambarasanv\Desktop\finalbuild\TamilKeyboard\TamilKeyboard\obj\Debug\TamilKeyboard.csprojResolveAssemblyReference.cache
